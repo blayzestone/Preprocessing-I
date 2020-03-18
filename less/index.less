@@ -61,13 +61,15 @@ html {
 }
 
 /* VARIABLES */
+@raleway: 'Raleway', sans-serif;
+@open-sans: 'Open Sans', sans-serif;
+@text-color: #222;
 
 /* MIXINS */
 .column() {
 	display: flex;
 	flex-direction: column;
 }
-
 .division() {
 	width: 50%;
 	height: 100vh;
@@ -79,6 +81,12 @@ html {
 body {
 	max-width: 800px;
 	margin: 0 auto;
+	font-family: @open-sans;
+	color: @text-color;
+}
+
+h1,h2,h3 {
+	font-family: @raleway;
 }
 
 .wrapper {
@@ -87,9 +95,11 @@ body {
 	.division-one {
 		.division();
 		border-right: solid 2px black;
+		align-items: flex-end;
 		text-align: end;
 		padding-bottom: 5vh; // offsets Division One's content from division two's content.
 	}
+
 	.division-two {
 		.division();
 		border-left: solid 2px black;

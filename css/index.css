@@ -142,6 +142,13 @@ html {
 body {
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
 }
 .wrapper {
   display: flex;
@@ -154,6 +161,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   border-right: solid 2px black;
+  align-items: flex-end;
   text-align: end;
   padding-bottom: 5vh;
 }
