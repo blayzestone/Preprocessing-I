@@ -143,10 +143,10 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
-.main-container {
+.wrapper {
   display: flex;
 }
-.main-container .division-one {
+.wrapper .division-one {
   width: 50%;
   height: 100vh;
   padding: 0 3rem;
@@ -157,7 +157,7 @@ body {
   text-align: end;
   padding-bottom: 5vh;
 }
-.main-container .division-two {
+.wrapper .division-two {
   width: 50%;
   height: 100vh;
   padding: 0 3rem;
