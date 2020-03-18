@@ -63,8 +63,35 @@ html {
 /* VARIABLES */
 
 /* MIXINS */
+.column() {
+	display: flex;
+	flex-direction: column;
+}
+
+.division() {
+	width: 50%;
+	height: 100vh;
+	padding: 0 3rem;
+	.column();
+	justify-content: space-evenly;
+}
 
 body {
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+.main-container {
+	display: flex;
+
+	.division-one {
+		.division();
+		border-right: solid 2px black;
+		text-align: end;
+		padding-bottom: 5vh; // offsets Division One's content from division two's content.
+	}
+	.division-two {
+		.division();
+		border-left: solid 2px black;
+	}
 }

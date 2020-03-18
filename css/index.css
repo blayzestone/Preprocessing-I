@@ -143,3 +143,26 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
+.main-container {
+  display: flex;
+}
+.main-container .division-one {
+  width: 50%;
+  height: 100vh;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: solid 2px black;
+  text-align: end;
+  padding-bottom: 5vh;
+}
+.main-container .division-two {
+  width: 50%;
+  height: 100vh;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: solid 2px black;
+}
