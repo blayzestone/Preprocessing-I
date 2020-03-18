@@ -165,6 +165,18 @@ h3 {
   text-align: end;
   padding-bottom: 5vh;
 }
+.wrapper .division-one .main-titles {
+  line-height: 1.2;
+}
+.wrapper .division-one .main-titles .title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.wrapper .division-one .main-titles .subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
 .wrapper .division-two {
   width: 50%;
   height: 100vh;
