@@ -167,11 +167,11 @@ h4 {
   padding: 0 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-right: solid 2px black;
   align-items: flex-end;
   text-align: end;
-  padding-bottom: 5vh;
+  padding-bottom: 8vh;
 }
 .wrapper .division-one .main-titles {
   width: min-content;
@@ -192,6 +192,6 @@ h4 {
   padding: 0 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-left: solid 2px black;
 }
