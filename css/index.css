@@ -158,6 +158,9 @@ h4 {
   font-weight: bold;
   margin-bottom: 0.6rem;
 }
+p {
+  font-size: 1.2rem;
+}
 a {
   color: #222;
 }
