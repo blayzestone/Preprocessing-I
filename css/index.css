@@ -158,6 +158,18 @@ h4 {
   font-weight: bold;
   margin-bottom: 0.6rem;
 }
+a {
+  color: #222;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 4px #222;
+}
+header nav a {
+  margin: 2rem 0;
+}
 .wrapper {
   display: flex;
 }
